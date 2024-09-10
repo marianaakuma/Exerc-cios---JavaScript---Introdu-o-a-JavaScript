@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocultar e Mostrar Parágrafo</title>
+    <script>
+        function ocultarParagrafo() {
+            document.getElementById('paragrafo').style.display = 'none';
+        }
+
+        function mostrarParagrafo() {
+            document.getElementById('paragrafo').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <p id="paragrafo">Este é um parágrafo que pode ser ocultado ou mostrado.</p>
+    <button onclick="ocultarParagrafo()">Ocultar</button>
+    <button onclick="mostrarParagrafo()">Mostrar</button>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar Imagem</title>
+    <script>
+        function trocarImagem() {
+            document.getElementById('minhafoto').src = 'https://i.ibb.co/dGqNRg7/2542-0.jpg';
+            console.log('Imagem trocada com sucesso!');
+        }
+    </script>
+</head>
+<body>
+    <h1>Mudar de Criança para Adulto</h1>
+    <!-- Imagem inicial da criança -->
+    <img id="minhafoto" src="https://i.ibb.co/0sfYWWN/a-crianca-de-2-anos.jpg" alt="Imagem de uma criança">
+    <br>
+    <!-- Botão que troca a imagem -->
+    <button onclick="trocarImagem()">Crescer</button>
+</body>
+</html>
